@@ -185,6 +185,7 @@ header .links ul li:not(last-child) a{
     font-size: 17px;
     text-align: center;
     color: #666;
+    margin-top: 10px; 
 }
 @media (max-width: 767px){
     .special-heading{
@@ -315,6 +316,7 @@ flex: 1;
     position: relative;
     width: 250px;
     height: 375px;
+    left: 5%; 
 }
 .about .about-content .sure::before{
     content: '';
@@ -427,4 +429,10 @@ i {
   gap: 20px; 
 }
 
+}
+@media (min-width: 766px){
+    .about .about-content .sure  {
+        position: relative;
+        left: 20%;
+    }
 }
