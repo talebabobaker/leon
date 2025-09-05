@@ -424,7 +424,7 @@ i {
   .services .services-contact {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
-  gap: 20px; /* مسافة بين العناصر */
+  gap: 20px; 
 }
 
 }
