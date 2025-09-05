@@ -189,6 +189,7 @@ header .links ul li:not(last-child) a{
 @media (max-width: 767px){
     .special-heading{
         font-size: 65px;
+        margin: 20px; 
     }
     .special-heading+p{
         margin-top: -20px;
@@ -418,4 +419,12 @@ footer span{
 }
 i {
     font-size: 35px;
+}
+@media (min-width : 766px){
+  .services .services-contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+  gap: 20px; /* مسافة بين العناصر */
+}
+
 }
