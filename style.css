@@ -206,8 +206,9 @@ header .links ul li:not(last-child) a{
 .services .services-contact{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
-    column-gap: 40px;
+    column-gap: 50px;
     margin-top: 100px;
+    margin-left: 50px; 
     
 }
 .services .services-contact .srv{
