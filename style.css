@@ -422,10 +422,10 @@ footer span{
 i {
     font-size: 35px;
 }
-@media (min-width : 766px){
+@media (max-width : 999px){
   .services .services-contact {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(300px, 600px)); 
   gap: 20px; 
 }
 
