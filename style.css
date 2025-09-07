@@ -430,7 +430,7 @@ i {
 }
 
 }
-@media (min-width: 766px){
+@media (max-width: 999px){
     .about .about-content .sure  {
         position: relative;
         left: 20%;
